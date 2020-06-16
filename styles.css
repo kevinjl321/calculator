@@ -1,0 +1,96 @@
+.calculator{
+    display: grid;
+    grid-template-columns: repeat(4, 0.5fr);
+    grid-template-rows: repeat(5, 100px);
+    text-align: center;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: #dcd0f3;
+    border: 10px;
+}
+
+button{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: monospace;
+}
+
+#equals{
+    grid-area: 4/4/6/5
+}
+
+#add{
+    grid-area: 2/4/4/5
+}
+
+#display{
+    width: 4fr;
+    height: 200px;
+    background-color: rgb(219, 205, 205);
+    text-align: right;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+main{
+  background-color: black;
+  width: 550px;
+  padding: 10px 10px;
+  border-radius: 15px;
+  box-shadow: 10px 10px #d0ceec; 
+  margin: 100px auto auto auto;
+  border-radius: 5px;
+  
+}
+
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(128,252,202,1) 100%, rgba(227,250,255,1) 100%, rgba(215,248,255,1) 100%, rgba(13,186,223,1) 100%, rgba(207,247,255,1) 100%, rgba(232,251,255,1) 100%, rgba(200,246,255,1) 100%, rgba(0,212,255,1) 100%);
+  
+}
+
+h1{
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+footer{
+  width: 100%;
+  position: fixed;
+  bottom: 50px;
+  text-align: center;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.navbar {
+  background-color: rgb(225, 245, 212);
+  position: fixed;
+  top: 0%;
+  width: 10%;
+  left: -5px;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: center;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 10px 16px;
+
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: rgb(197, 236, 191);
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
