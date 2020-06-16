@@ -6,7 +6,7 @@ body{
 
 main{
   background-color: black;
-  width: 500px;
+  width: 480px;
   margin: 50px auto 0px auto;
   padding: 1px 10px;
   border-radius: 10px;
@@ -19,7 +19,7 @@ h1{
 }
 
 #display{
-  background-color: #CFD8DC;
+  background-color: rgb(214, 235, 221);
   height: 100px;
   padding: 10px;
   margin: 10px 10px 20px 10px;
@@ -36,15 +36,15 @@ button{
 
 button:hover{
   background-color: #dcd0f3;
-  border: 10px;
 }
 
 .calculator{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, 100px);
+  grid-template-rows: repeat(5, 80px);
   margin-bottom: 10px;
   margin-top: 20px;
+  max-height: 450px;
 }
 
 #equals{
