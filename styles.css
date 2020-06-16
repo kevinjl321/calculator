@@ -1,61 +1,58 @@
-.calculator{
-    display: grid;
-    grid-template-columns: repeat(4, 0.5fr);
-    grid-template-rows: repeat(5, 6vh);
-    text-align: center;
-    margin-top: 15px;
-    grid-gap: 0vw;
-}
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(128,252,202,1) 100%, rgba(227,250,255,1) 100%, rgba(215,248,255,1) 100%, rgba(13,186,223,1) 100%, rgba(207,247,255,1) 100%, rgba(232,251,255,1) 100%, rgba(200,246,255,1) 100%, rgba(0,212,255,1) 100%);
 
-button:hover{
-    background-color: #dcd0f3;
-    border: 10px;
-}
-
-button{
-    font-size: 15px;
-    padding: 10px;
-    border-radius: 10px;
-    font-family: monospace;
-}
-
-#equals{
-    grid-area: 4/4/6/5
-}
-
-#add{
-    grid-area: 2/4/4/5
-}
-
-#display{
-    width: 4fr;
-    height: 10vh;
-    background-color: rgb(219, 205, 205);
-    text-align: right;
-    font-family: monospace;
-    font-size: 30vw;
 }
 
 main{
   background-color: black;
-  width: 300px;
-  padding: 10px 10px;
-  border-radius: 15px;
+  width: 500px;
+  margin: 100px auto 0px auto;
+  padding: 1px 10px;
+  border-radius: 10px;
   box-shadow: 10px 10px #d0ceec; 
-  margin: 100px auto auto auto;
-  border-radius: 5px;
-  height: 50vh;
-}
-
-body{
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(128,252,202,1) 100%, rgba(227,250,255,1) 100%, rgba(215,248,255,1) 100%, rgba(13,186,223,1) 100%, rgba(207,247,255,1) 100%, rgba(232,251,255,1) 100%, rgba(200,246,255,1) 100%, rgba(0,212,255,1) 100%);
-  
 }
 
 h1{
   font-family: "Lato", sans-serif;
   color: white;
+}
+
+#display{
+  background-color: #CFD8DC;
+  height: 100px;
+  padding: 10px;
+  margin: 10px 10px 20px 10px;
+  border-radius: 10px;
+}
+
+button{
+  font-family: monospace;
+  border-color: black;
+  font-size: 36px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+button:hover{
+  background-color: #dcd0f3;
+  border: 10px;
+}
+
+.calculator{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 100px);
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+#equals{
+  grid-area: 4/4/6/5
+}
+
+#add{
+  grid-area: 2/4/4/5
 }
 
 footer{
@@ -95,6 +92,3 @@ footer{
   background-color: #4CAF50;
   color: white;
 }
-
-
-
