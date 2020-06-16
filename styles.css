@@ -7,7 +7,7 @@ body{
 main{
   background-color: black;
   width: 500px;
-  margin: 100px auto 0px auto;
+  margin: 50px auto 0px auto;
   padding: 1px 10px;
   border-radius: 10px;
   box-shadow: 10px 10px #d0ceec; 
@@ -53,15 +53,6 @@ button:hover{
 
 #add{
   grid-area: 2/4/4/5
-}
-
-footer{
-  width: 100%;
-  position: fixed;
-  bottom: 50px;
-  text-align: center;
-  font-size: 20px;
-  font-family: monospace;
 }
 
 .navbar {
