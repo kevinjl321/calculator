@@ -1,9 +1,10 @@
 .calculator{
     display: grid;
     grid-template-columns: repeat(4, 0.5fr);
-    grid-template-rows: repeat(5, 100px);
+    grid-template-rows: repeat(5, 6vh);
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
+    grid-gap: 0vw;
 }
 
 button:hover{
@@ -12,7 +13,7 @@ button:hover{
 }
 
 button{
-    font-size: 25px;
+    font-size: 15px;
     padding: 10px;
     border-radius: 10px;
     font-family: monospace;
@@ -28,22 +29,22 @@ button{
 
 #display{
     width: 4fr;
-    height: 200px;
+    height: 10vh;
     background-color: rgb(219, 205, 205);
     text-align: right;
     font-family: monospace;
-    font-size: 50px;
+    font-size: 30vw;
 }
 
 main{
   background-color: black;
-  width: 550px;
+  width: 300px;
   padding: 10px 10px;
   border-radius: 15px;
   box-shadow: 10px 10px #d0ceec; 
   margin: 100px auto auto auto;
   border-radius: 5px;
-  
+  height: 50vh;
 }
 
 body{
@@ -94,3 +95,6 @@ footer{
   background-color: #4CAF50;
   color: white;
 }
+
+
+
