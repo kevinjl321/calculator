@@ -1,41 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link rel = stylesheet href = "styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <main>
-    <h1><strong>TI-69</strong> Plus CE</h1>
-    <div id = display></div>
-    <div class = "calculator">
-        <button type="button" id="reset" class="operate">clear</button>
-        <button type="button" id="divide" class="operate" value="/">/</button>
-        <button type="button" id="multiply" class="operate" value="*">*</button>
-        <button type="button" id="subtract" class="operate" value="-">-</button>
-        <button type="button" id="nine" class="num" value="9">9</button>
-        <button type="button" id="eight" class="num" value="8">8</button>
-        <button type="button" id="seven" class="num" value="7">7</button>
-        <button type="button" id="add" class="operate" value="+">+</button>
-        <button type="button" id="six" class="num" value="6">6</button>
-        <button type="button" id="five" class="num" value="5">5</button>
-        <button type="button" id="four" class="num" value="4">4</button>
-        <button type="button" id="three" class="num" value="3">3</button>
-        <button type="button" id="two" class="num" value="2">2</button>
-        <button type="button" id="one" class="num" value="1">1</button>
-        <button type="button" id="posNeg" class="operate">+/-</button>
-        <button type="button" id="zero" class="num" value="0">0</button>
-        <button type="button" id="decimal" class="operate" value=".">.</button>
-        <button type="button" id="equals" class="operate">=</button>     
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <div class="problem">
+                <p class="problem-text"></p>
+            </div>
+            <div class="frame">
+                <p class="frame-text"></p>
+            </div>
+        </div>
+        <div class="button-container">
+            <button id="clear" class="top">ce</button>
+            <button id="backspace" class="top">del</button>
+            <button id="plus-minus" class="top">+/-</button>
+            <button id="divide" class="operator">÷</button>
+            <button id="7" class="number">7</button>
+            <button id="8" class="number">8</button>
+            <button id="9" class="number">9</button>
+            <button id="multiply" class="operator">×</button>
+            <button id="4" class="number">4</button>
+            <button id="5" class="number">5</button>
+            <button id="6" class="number">6</button>
+            <button id="subtract" class="operator">-</button>
+            <button id="1" class="number">1</button>
+            <button id="2" class="number">2</button>
+            <button id="3" class="number">3</button>
+            <button id="add" class="operator">+</button>
+            <button id="0" class="number zero">0</button>
+            <button id="decimal">.</button>
+            <button id="equals" class="operator">=</button>
+        </div>
     </div>
-    </main>
+    <script src="script.js"></script>
     <div class="navbar">
       <a id = "github" href="https://www.github.com/kevinjl321">
         <img alt="github logo" src="25231.svg"
         width="50" height="50">
       </a>
     </div>
-  </body>
+</body>
 </html>
